@@ -20,7 +20,7 @@ public class Ceiling {
             } else if (target > arr[mid]) {
                 start = mid + 1;
             } else {
-                return mid;
+                return arr[mid];
             }
         }
         return start;

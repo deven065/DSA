@@ -3,7 +3,7 @@
 public class Floor {
     static void main() {
         int[] arr = {1, 2, 4, 6, 8, 10};
-        int target = 7;
+        int target = 6;
         int ans = floor(arr, target);
         System.out.println(ans);
     }
@@ -21,7 +21,7 @@ public class Floor {
             } else if (target < arr[mid]) {
                 end = mid - 1;
             } else {
-                return mid;
+                return arr[mid];
             }
         }
         return arr[end];
