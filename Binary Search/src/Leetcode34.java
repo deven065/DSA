@@ -31,7 +31,7 @@ public class Leetcode34 {
             } else if (target > nums[mid]) {
                 start = mid + 1;
             } else {
-                //  Potential ans found, but target can be found in either left or right hand side
+                //  Potential answer found, but target can be found in either left or right hand side
                 ans = mid;
                 if (firstIndex) {
                     end = mid - 1;

@@ -2,7 +2,7 @@ package com.deven.easy;
 
 public class Nto1 {
     public static void main(String[] args) {
-        funRev(5);
+        fun(5);
     }
 
     static void fun(int n) {

@@ -9,13 +9,13 @@ public class Main {
     }
 
     static void message() {
-        System.out.println("Hello World");
-        message1();
+        System.out.println("Hello World");  //  It will print this
+        message1(); //  then it will execute message1()
     }
 
     static void message1() {
-        System.out.println("Hello World");
-        message2();
+        System.out.println("Hello World");  //  Now this will execute
+        message2(); //  then it will execute message2()
     }
 
     static void message2() {

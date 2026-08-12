@@ -1,4 +1,4 @@
-https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+//  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 package com.deven;
 
@@ -34,7 +34,7 @@ public class FirstAndLastPosition {
             } else if (target > nums[mid]) {
                 start = mid + 1;
             } else {
-                //  Potential ans found
+                //  Potential answer found but target can be found in either left or right hand side
                 ans = mid;
                 if(firstIndex) {
                     end = mid - 1;
