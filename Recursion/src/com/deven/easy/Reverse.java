@@ -2,7 +2,8 @@ package com.deven.easy;
 
 public class Reverse {
     public static void main(String[] args) {
-        System.out.println(rev2(1234));
+        rev1(1234);
+        System.out.println(sum);
     }
     static int sum = 0;
     static void rev1(int n) {
@@ -16,7 +17,7 @@ public class Reverse {
 
     static int rev2(int n) {
         // sometimes you might need some additional variables in the argument
-        // in that case, make another fuinction
+        // in that case, make another function
         int digits = (int)(Math.log10(n)) + 1;
         return helper(n, digits);
     }
